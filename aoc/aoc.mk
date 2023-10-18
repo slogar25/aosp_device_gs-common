@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 # AoC debug support
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
 	aocdump \
 	aocutil \
 	aoc_audio_cfg \
