@@ -39,9 +39,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google/camera/google_3a/libs_v4/gHAWB/native_coverage
 
 # Calibration tool for debug builds
-PRODUCT_PACKAGES_DEBUG += tarasque_test
-PRODUCT_PACKAGES_DEBUG += ProtoCalibGenerator
-endif  # RELEASE_PIXEL_CAMERA_ENABLE_PREBUILT check
+PRODUCT_PACKAGES_ENG += tarasque_test
+PRODUCT_PACKAGES_ENG += ProtoCalibGenerator
+
+endif  # vendor/google/camera check
 
 # Init-time log settings for Google 3A
 PRODUCT_PACKAGES += libg3a_standalone_gabc_rc
